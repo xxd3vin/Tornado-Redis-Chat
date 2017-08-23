@@ -7,7 +7,7 @@ This is an example of a mutli-room chat application based on the asynchronous
 web framework [Tornado](http://www.tornadoweb.org/). It uses [Redis Pup/Sub](http://redis.io/topics/pubsub)
 feature as a message queue to distribute chat messages to multiple instances in a mutli-process
 setup. This way you can run this application in mutliple instances behind a load balancer
-like [ninx](http://nginx.org/). It uses [brukva](https://github.com/evilkost/brukva) as asynchronous
+like [nginx](http://nginx.org/). It uses [brukva](https://github.com/evilkost/brukva) as asynchronous
 Redis client. Client-Server communication is based on [websockets](http://www.tornadoweb.org/en/stable/websocket.html).
 
 **Note**: Please note that this is just an example project for demonstration purpose only. It is little tested
